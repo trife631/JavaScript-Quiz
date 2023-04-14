@@ -1,0 +1,99 @@
+/* Set background color, font family, and remove default margin */
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Top Row Bar Styles */
+  .top-bar {
+    /* Display flex to align items and distribute space between them */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: magenta; /* Set background color to magenta */
+    padding: 10px; /* Add padding to top and bottom */
+  }
+  
+  /* View High Scores Link Styles */
+  .view-scores {
+    font-weight: bold; /* Make font bold */
+    color: white; /* Set font color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Timer Styles */
+  .timer {
+    font-weight: bold; /* Make font bold */
+    color: white; /* Set font color to white */
+  }
+  
+  /* Quiz Card Styles */
+  .quiz-card {
+    border: 1px solid black; /* Add border around card */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding */
+    margin: 50px auto; /* Center the card and add margin */
+    width: 500px; /* Set card width */
+    text-align: center; /* Center text */
+  }
+  
+  /* Quiz Card Header Styles */
+  .quiz-card h1 {
+    font-size: 40px; /* Increase font size */
+  }
+  
+  /* Quiz Card Paragraph Styles */
+  .quiz-card p {
+    font-size: 20px; /* Increase font size */
+  }
+  
+  /* Quiz Card Button Styles */
+  .quiz-card button {
+    background-color: magenta; /* Set background color to magenta */
+    color: white; /* Set font color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px 20px; /* Add padding */
+    margin-top: 20px; /* Add margin to top */
+    font-size: 20px; /* Increase font size */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  /* Question Card Styles */
+  .question-card {
+    border: 1px solid black; /* Add border around card */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding */
+    margin: 50px auto; /* Center the card and add margin */
+    width: 500px; /* Set card width */
+    text-align: center; /* Center text */
+    display: none; /* Hide card by default */
+  }
+  
+  /* Question Card Header Styles */
+  .question-card h2 {
+    font-size: 30px; /* Increase font size */
+    margin-bottom: 20px; /* Add margin to bottom */
+  }
+  
+  /* Question Card Button Styles */
+  .question-card .choice-btn {
+    background-color: magenta; /* Set background color to magenta */
+    color: white; /* Set font color to white */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px 20px; /* Add padding */
+    margin-top: 20px; /* Add margin to top */
+    font-size: 20px; /* Increase font size */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+/* Game Over Card Styles */
+  .game-over-card {    border: 1px solid black; /* Add border around card */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding */
+    margin: 50px auto; 
+
+  }
+
